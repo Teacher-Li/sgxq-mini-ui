@@ -1,0 +1,18 @@
+.more {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  padding: 6rpx 16rpx;
+  border-radius: 22rpx;
+  box-shadow: 0 4rpx 12rpx 0 rgba(46, 145, 210, 0.2); }
+  .more__text {
+    margin-right: 4rpx;
+    color: #13b2fc;
+    font-size: 24rpx;
+    line-height: 32rpx; }
+  .more__arrow {
+    width: 24rpx;
+    height: 24rpx; }

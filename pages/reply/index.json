@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Reply 评论",
+  "usingComponents": {
+    "sgxq-reply": "/dist/components/reply/reply"
+  }
+}

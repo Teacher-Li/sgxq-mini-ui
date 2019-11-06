@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="title">基本用法</view>
+<view class="content">
+  <view style="display: flex; justify-content: flex-end;">
+    <sgxq-more></sgxq-more>
+  </view>
+</view>

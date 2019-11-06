@@ -1,0 +1,31 @@
+<card-box>
+    <view class="card-res">
+        <view class="card-title">
+            <view class="card-title__left">
+                <view class="title-content">{{title}}</view>
+                <view class="title-date">{{date}}</view>
+            </view>
+            <view class="card-title__right">
+                <block wx:if="{{cardType == 'map'}}">
+                    <view class="title-label map">{{mapType}}</view>
+                    <view class="title-heat">
+                        <image class="title-heat__icon" src="/static/icon_heat.png" />
+                        <text class="title-heat__count">{{heat}}</text>
+                    </view>
+                </block>
+                <block wx:if="{{cardType == 'des'}}">
+                    <view class="title-label des">{{desType}}</view>
+                    <view class="title-heat">
+                        <text class="title-heat__count">{{desSize}}</text>
+                    </view>
+                </block>
+            </view>
+        </view>
+        <view class="card-res__cover">
+            <img-default>
+                <image class="cover-inner" src="{{resCover}}" />
+            </img-default>
+        </view>
+    </view>
+</card-box>
+

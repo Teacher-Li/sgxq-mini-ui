@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="title">基本用法</view>
+<view class="content">
+  <sgxq-reply></sgxq-reply>
+</view>

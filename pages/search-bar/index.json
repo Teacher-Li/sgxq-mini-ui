@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "SearchBar 搜索",
+  "usingComponents": {
+    "sgxq-search-bar": "/dist/components/searchbar/searchbar"
+  }
+}

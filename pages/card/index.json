@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Card 卡片",
+  "usingComponents": {
+    "sgxq-card-box": "/dist/components/card/card-box/card-box",
+    "sgxq-card-res": "/dist/components/card/card-res/card-res",
+    "sgxq-card-topic": "/dist/components/card/card-topic/card-topic"
+  }
+}

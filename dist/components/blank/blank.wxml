@@ -1,0 +1,7 @@
+<view class="sg-blank">
+  <slot name="image"></slot>
+  <image wx:if="{{ image }}" src="{{ src }}" class="sg-blank__image sg-blank__image--{{ type }}"></image>
+  <view class="sg-blank__text">
+    <slot></slot>
+  </view>
+</view>

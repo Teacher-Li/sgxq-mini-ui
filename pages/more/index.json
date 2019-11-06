@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "More 更多",
+  "usingComponents": {
+    "sgxq-more": "/dist/components/more/more"
+  }
+}

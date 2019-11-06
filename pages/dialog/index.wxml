@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="title">一般用法</view>
+<view class="content">
+  <sgxq-button type="linear" bind:tap="handleClick1" block>手工星球</sgxq-button>
+  <sgxq-dialog title="手工星球" show="{{ show1 }}">
+    <view class="img">
+      <view class="img-default"></view>
+    </view>
+    <text class="text margin-t-5">敬请期待</text>
+  </sgxq-dialog>
+</view>
+<view class="title">底部弹出</view>
+<view class="content">
+  <sgxq-button type="linear" bind:tap="handleClick2" block>底部弹出</sgxq-button>
+  <sgxq-hs-dialog
+      bind:confirm="handleClose2"
+      bind:cancel="handleClose2"
+      show="{{ show2 }}"
+      title="底部弹出">
+    <view class="img">
+      <view class="img-default"></view>
+    </view>
+  </sgxq-hs-dialog>
+</view>

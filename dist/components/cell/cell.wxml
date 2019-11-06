@@ -1,0 +1,26 @@
+<view class="custom-class sg-cell {{  outerClass  }}" hover-class="hover-class {{ hover ? 'sg-cell--active' : '' }}">
+    <view class="sg-cell__hd {{ iconClass }}">
+        <block wx:if="{{ icon }}">
+            <image src="{{ icon }}" class="sg-cell__icon" mode="aspectFit"></image>
+        </block>
+        <block wx:else>
+            <slot name="icon"></slot>
+        </block>
+        <block wx:if="{{ title }}">{{ title }}</block>
+        <block wx:else>
+            <slot name="title"></slot>
+        </block>
+    </view>
+    <view class="sg-cell__bd">
+        <block wx:if="{{ value }}">{{ value }}</block>
+        <block wx:else>
+            <slot></slot>
+        </block>
+    </view>
+    <view class="sg-cell__ft {{ footerClass }}">
+        <block wx:if="{{ footer }}">{{ footer }}</block>
+        <block wx:else>
+            <slot name="footer"></slot>
+        </block>
+    </view>
+</view>

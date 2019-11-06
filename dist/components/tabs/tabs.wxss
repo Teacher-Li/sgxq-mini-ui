@@ -1,0 +1,39 @@
+.sg-tabs__scroll {
+  height: 80rpx; }
+
+.sg-tabs__nav {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+.sg-tab {
+  padding: 0 25rpx;
+  color: #c0c4cc;
+  line-height: 80rpx;
+  white-space: nowrap;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s; }
+  .sg-tab .sg-tab__item {
+    display: inline-block;
+    font-size: 24rpx; }
+  .sg-tab--active {
+    color: #13b2fc; }
+    .sg-tab--active .sg-tab__item {
+      font-size: 28rpx; }
+
+.sg-tabs__line {
+  position: absolute;
+  bottom: 12rpx;
+  left: 0;
+  z-index: 1;
+  height: 4rpx;
+  background-color: #13b2fc;
+  border-radius: 2rpx; }
+
+.sg-tabs--android .sg-tabs__line {
+  height: 5rpx; }

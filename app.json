@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/actionsheet/index",
+    "pages/blank/index",
+    "pages/button/index",
+    "pages/card/index",
+    "pages/cell/index",
+    "pages/dialog/index",
+    "pages/search-bar/index",
+    "pages/star/index",
+    "pages/tabs/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

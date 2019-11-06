@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Cell 布局",
+  "usingComponents": {
+    "sgxq-cell": "/dist/components/cell/cell"
+  }
+}

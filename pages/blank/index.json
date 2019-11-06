@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Blank 空白",
+  "usingComponents": {
+    "sgxq-blank": "/dist/components/blank/blank"
+  }
+}

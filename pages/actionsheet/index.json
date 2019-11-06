@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "Actionsheet 上拉菜单",
+  "usingComponents": {
+    "sgxq-list": "/components/list/index",
+    "sgxq-list-group": "/components/list-group/index",
+    "sgxq-button": "/dist/components/button/button",
+    "sgxq-actionsheet": "/dist/components/actionsheet/actionsheet"
+  }
+}

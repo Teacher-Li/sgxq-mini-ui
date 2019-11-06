@@ -1,0 +1,3 @@
+<view class="custom-class sg-card" hover-class="hover-class {{ hover ? 'sg-card__active' : '' }}">
+    <slot></slot>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "star 评分",
+  "usingComponents": {
+    "sgxq-star-list": "/dist/components/star-list/star-list"
+  }
+}

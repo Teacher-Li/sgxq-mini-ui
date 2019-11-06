@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="title">基本用法</view>
+<view class="content">
+  <sgxq-blank>还没有收藏夹哦</sgxq-blank>
+</view>
+<view class="title">更换图片</view>
+<view class="content">
+  <sgxq-blank type="comment">暂无评论</sgxq-blank>
+  <sgxq-blank type="router">网络故障</sgxq-blank>
+  <sgxq-blank type="load">加载失败</sgxq-blank>
+</view>
+<view class="title">不显示图片</view>
+<view class="content">
+  <sgxq-blank image="{{ false }}">还没有收藏夹哦</sgxq-blank>
+</view>

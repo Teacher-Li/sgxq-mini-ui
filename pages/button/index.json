@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Button 按钮",
+  "usingComponents": {
+    "sgxq-button": "/dist/components/button/button",
+    "sgxq-button-group": "/dist/components/button-group/button-group"
+  }
+}

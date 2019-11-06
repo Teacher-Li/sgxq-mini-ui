@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Image 图片",
+  "usingComponents": {
+    "sgxq-image": "/dist/components/image/image"
+  }
+}

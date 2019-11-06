@@ -1,0 +1,7 @@
+{
+	"component": true,
+	"usingComponents": {
+		"card-box": "../card-box/card-box",
+		"img-default": "../../img-default/img-default"
+	}
+}

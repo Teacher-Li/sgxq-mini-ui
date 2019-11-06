@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="title">一般用法</view>
+<view class="content">
+  <sgxq-button>default</sgxq-button>
+  <sgxq-button type="primary" class="margin-l-5">primary</sgxq-button>
+  <sgxq-button type="linear" class="margin-l-5">linear</sgxq-button>
+</view>
+<view class="title">按钮状态</view>
+<view class="content">
+  <sgxq-button disabled>disabled</sgxq-button>
+  <sgxq-button class="margin-l-5" loading>loading</sgxq-button>
+  <sgxq-button class="margin-l-5" plain>plain</sgxq-button>
+  <sgxq-button type="primary" custom-class="margin-t-5" block>block</sgxq-button>
+</view>
+<view class="title">按钮尺寸</view>
+<view class="content">
+  <sgxq-button type="primary" size="small">small</sgxq-button>
+  <sgxq-button type="primary" size="middle" class="margin-l-5">middle</sgxq-button>
+  <sgxq-button type="primary" size="large" custom-class="margin-t-5">large</sgxq-button>
+</view>
+<view class="title">按钮组</view>
+<view class="content">
+  <sgxq-button-group buttons="{{ buttons }}"></sgxq-button-group>
+</view>

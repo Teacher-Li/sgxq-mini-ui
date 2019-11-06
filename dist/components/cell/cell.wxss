@@ -1,0 +1,46 @@
+.sg-cell {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 32rpx; }
+  .sg-cell:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 2rpx;
+    color: #e3e5e8;
+    border-top: 1rpx solid #e3e5e8;
+    content: " ";
+    left: 32rpx; }
+  .sg-cell:first-child:before {
+    display: none; }
+
+.sg-cell_active {
+  background-color: #ececec; }
+
+.sg-cell_primary {
+  -webkit-box-align: start;
+          align-items: flex-start; }
+
+.sg-cell__bd {
+  -webkit-box-flex: 1;
+          flex: 1; }
+
+.sg-cell__ft {
+  color: #c0c4cc;
+  text-align: right; }
+
+.sg-cell_wxss.sg-cell_wxss:before {
+  display: block; }
+
+.sg-cell_label-block {
+  display: block; }
+  .sg-cell_label-block .sg-label {
+    width: auto;
+    word-break: initial;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto; }

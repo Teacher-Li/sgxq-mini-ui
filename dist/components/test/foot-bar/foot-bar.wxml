@@ -1,0 +1,10 @@
+<block >
+    <view class="foot-bar-outer">
+        <view class="foot-bar-box">
+            <view bind:tap="navEvent" data-type="1" class="bar-item">index</view>
+            <view bind:tap="navEvent" data-type="2" class="bar-item">page-two</view>
+            <view bind:tap="navEvent" data-type="3" class="bar-item">page-three</view>
+        </view>
+    </view>
+</block>
+
