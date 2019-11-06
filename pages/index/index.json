@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "手工星球",
-  "usingComponents": {
-    "sgxq-list": "/components/list/index",
-    "sgxq-list-group": "/components/list-group/index"
-  }
-}

@@ -1,3 +1,0 @@
-<view style='padding-left: 15rpx;'>
-    <slot></slot>
-</view>
