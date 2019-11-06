@@ -16,3 +16,7 @@ npm run serve
 ```
 npm run build
 ```
+
+## Docs
+
+[1.x](https://teacher-li.github.io/sgxq-mini-ui/)
