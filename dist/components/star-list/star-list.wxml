@@ -1,4 +1,0 @@
-<view class="sg-star-wrap">
-    <!--count：默认五个星星 value：分值 -->
-    <star wx:for="{{count}}" wx:key="key" count="{{count}}" value="{{value}}" prefixCls="sg-star" index="{{index}}"></star>
-</view>

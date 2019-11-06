@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "Dialog 弹窗",
-  "usingComponents": {
-    "sgxq-button": "/dist/components/button/button",
-    "sgxq-dialog": "/dist/components/dialog/dialog",
-    "sgxq-hs-dialog": "/dist/components/hs-dialog/hs-dialog"
-  }
-}
